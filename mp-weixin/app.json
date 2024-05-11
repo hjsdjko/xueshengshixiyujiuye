@@ -1,0 +1,90 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/fudaojiaoshi/list",
+    "pages/fudaojiaoshi/add-or-update",
+    "pages/fudaojiaoshi/detail",
+    "pages/fudaojiaoshiLiuyan/list",
+    "pages/fudaojiaoshiLiuyan/add-or-update",
+    "pages/fudaojiaoshiLiuyan/detail",
+    "pages/gongsi/list",
+    "pages/gongsi/add-or-update",
+    "pages/gongsi/detail",
+    "pages/gongzuoguanliren/list",
+    "pages/gongzuoguanliren/add-or-update",
+    "pages/gongzuoguanliren/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/toudi/list",
+    "pages/toudi/add-or-update",
+    "pages/toudi/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/zhaopin/list",
+    "pages/zhaopin/add-or-update",
+    "pages/zhaopin/detail",
+    "pages/zhaopinCollection/list",
+    "pages/zhaopinCollection/add-or-update",
+    "pages/zhaopinCollection/detail",
+    "pages/zhaopinLiuyan/list",
+    "pages/zhaopinLiuyan/add-or-update",
+    "pages/zhaopinLiuyan/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "学生实习与就业管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#B24592",
+    "borderStyle": "black",
+    "backgroundColor": "#E57498",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fudaojiaoshi/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "辅导教师"
+      },
+      {
+        "pagePath": "pages/zhaopin/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "职位招聘"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "公告信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
